@@ -1,0 +1,57 @@
+import React from 'react';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+import Qr from "./qr-code.png";
+import { useNavigate } from 'react-router-dom';
+
+const Ewaybillgrpalldoc = () => {
+  const navigate = useNavigate();
+
+  const tostershow = () => {
+    // Show toast message
+    toast.success('Email sent successfully!', {
+      position: "top-right",
+      autoClose: 3000, // 3 seconds
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+    });
+
+    // Navigate to dashboard after a delay (adjust as needed)
+    setTimeout(() => {
+      navigate("/dashboard");
+    }, 3000);
+  }
+
+  return (
+    <div className='flex items-center justify-center h-screen bg-gradient-to-tr from-white to-green-400 '>
+    <div className=' mt-10 border-solid border-2 p-3 flex gap-2 rounded-lg bg-white h-3/4 w-[1040px]' >
+     
+      <div className='mt-4 mb-4 border-solid border-5  overflow-hidden w-[700px] border-2xl border-green-700'>
+        <iframe title="PDF Viewer" src="/grdoc.pdf" className='h-[110%] w-full overflow-hidden border-2xl border-green-700'></iframe>
+      </div>
+      <div className='flex flex-col gap-5 justify-center items-center'>
+          <div className=' p-5 overflow-y-auto flex flex-col justify-center items-center gap-3'>
+            <img style={{ width: "100px" }} src={Qr} alt='' />
+            <h1 className='text-3xl font-bold text-green-500'>TSL No. 123345</h1>
+            
+          </div>
+          <button
+            type="submit"
+            className='border-green-500 bg-green-500 cursor-pointer text-white rounded-full px-9 py-2 inline-block font-semibold'
+            onClick={tostershow}
+            >
+            
+            Submit
+          </button>
+          <ToastContainer />
+      </div>
+      
+    </div>
+  </div>
+  );
+}
+
+export default Ewaybillgrpalldoc;
