@@ -126,7 +126,7 @@ const Misreport = () => {
               <div className="lg:bg-gray-400 lg:w-[100%] lg:p-1 lg:h-100 lg:border-2 lg:text-white lg:flex lg:items-center  lg:justify-center  lg:text-[15px]     ">
               Date-of-DPOD
               </div>
-              <Link to="/VehicleTracking" className="lg:w-[100%]" >
+              <Link to="/Trip" className="lg:w-[100%]" >
             <button className="lg:bg-gray-400 lg:w-[100%] lg:p-1 lg:h-100 lg:border-2 lg:text-white lg:flex lg:items-center lg:justify-center lg:text-[15px]">
               Tracking-status
             </button>
@@ -178,7 +178,7 @@ const Misreport = () => {
               <div className="lg:bg-gray-400 lg:w-[100%] lg:p-1 lg:h-100 lg:border-2 lg:text-white lg:flex lg:items-center  lg:justify-center  lg:text-[15px]     ">
               Date-of-DPOD
               </div>
-              <Link to="/VehicleTracking" className="lg:w-[100%]" >
+              <Link to="/Trip" className="lg:w-[100%]" >
             <button className="lg:bg-gray-400 lg:w-[100%] lg:p-1 lg:h-100 lg:border-2 lg:text-white lg:flex lg:items-center lg:justify-center lg:text-[15px]">
               Tracking-status
             </button>
@@ -230,7 +230,7 @@ const Misreport = () => {
               <div className="lg:bg-gray-400 lg:w-[100%] lg:p-1 lg:h-100 lg:border-2 lg:text-white lg:flex lg:items-center  lg:justify-center  lg:text-[15px]     ">
               Date-of-DPOD
               </div>
-              <Link to="/VehicleTracking" className="lg:w-[100%]" >
+              <Link to="/Trip" className="lg:w-[100%]" >
             <button className="lg:bg-gray-400 lg:w-[100%] lg:p-1 lg:h-100 lg:border-2 lg:text-white lg:flex lg:items-center lg:justify-center lg:text-[15px]">
               Tracking-status
             </button>
@@ -282,7 +282,7 @@ const Misreport = () => {
               <div className="lg:bg-gray-400 lg:w-[100%] lg:p-1 lg:h-100 lg:border-2 lg:text-white lg:flex lg:items-center  lg:justify-center  lg:text-[15px]     ">
               Date-of-DPOD
               </div>
-              <Link to="/VehicleTracking" className="lg:w-[100%]" >
+              <Link to="/Trip" className="lg:w-[100%]" >
             <button className="lg:bg-gray-400 lg:w-[100%] lg:p-1 lg:h-100 lg:border-2 lg:text-white lg:flex lg:items-center lg:justify-center lg:text-[15px]">
               Tracking-status
             </button>
@@ -334,7 +334,7 @@ const Misreport = () => {
               <div className="lg:bg-gray-400 lg:w-[100%] lg:p-1 lg:h-100 lg:border-2 lg:text-white lg:flex lg:items-center  lg:justify-center  lg:text-[15px]     ">
               Date-of-DPOD
               </div>
-              <Link to="/VehicleTracking" className="lg:w-[100%]" >
+              <Link to="/Trip" className="lg:w-[100%]" >
             <button className="lg:bg-gray-400 lg:w-[100%] lg:p-1 lg:h-100 lg:border-2 lg:text-white lg:flex lg:items-center lg:justify-center lg:text-[15px]">
               Tracking-status
             </button>
@@ -386,7 +386,7 @@ const Misreport = () => {
               <div className="lg:bg-gray-400 lg:w-[100%] lg:p-1 lg:h-100 lg:border-2 lg:text-white lg:flex lg:items-center  lg:justify-center  lg:text-[15px]     ">
               Date-of-DPOD
               </div>
-              <Link to="/VehicleTracking" className="lg:w-[100%]" >
+              <Link to="/Trip" className="lg:w-[100%]" >
             <button className="lg:bg-gray-400 lg:w-[100%] lg:p-1 lg:h-100 lg:border-2 lg:text-white lg:flex lg:items-center lg:justify-center lg:text-[15px]">
               Tracking-status
             </button>
@@ -438,7 +438,7 @@ const Misreport = () => {
               <div className="lg:bg-gray-400 lg:w-[100%] lg:p-1 lg:h-100 lg:border-2 lg:text-white lg:flex lg:items-center  lg:justify-center  lg:text-[15px]     ">
               Date-of-DPOD
               </div>
-              <Link to="/VehicleTracking" className="lg:w-[100%]" >
+              <Link to="/Trip" className="lg:w-[100%]" >
             <button className="lg:bg-gray-400 lg:w-[100%] lg:p-1 lg:h-100 lg:border-2 lg:text-white lg:flex lg:items-center lg:justify-center lg:text-[15px]">
               Tracking-status
             </button>
